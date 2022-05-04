@@ -1,4 +1,4 @@
-# Lec2 Distributed File System - GFS - PART1⃣️
+# Lec3 Distributed File System - GFS - PART1⃣️
 
 ## 引言
 

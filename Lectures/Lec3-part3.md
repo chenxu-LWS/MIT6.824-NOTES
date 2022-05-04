@@ -1,4 +1,4 @@
-# Lec2 Distributed File System - GFS - PART3⃣️
+# Lec3 Distributed File System - GFS - PART3⃣️
 
 ## GFS综述
 
@@ -58,3 +58,4 @@ Master中实际存储的内容主要是两个Map：
 > A：数据库实际上就是B树或者哈希表。由于对于记录常见的操作是一次性写入多条近期记录，这些记录都是向一个地址追加，只需等待磁盘的磁道旋转以此，而对于B树等结构，写入数据都是随机位置写入的。相比之下追加log到文件会更加高效。
 
 同时为了加速Master故障后的修复，遍历所有log进行重建显然不可取，所以Master会在磁盘建立一些checkpoints，这样Master会从最近的一个checkpoint开始恢复，再逐条执行checkpoint以后的log即可。
+

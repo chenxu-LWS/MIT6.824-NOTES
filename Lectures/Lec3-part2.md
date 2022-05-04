@@ -1,4 +1,4 @@
-# Lec2 Distributed File System - GFS - PART2⃣️
+# Lec3 Distributed File System - GFS - PART2⃣️
 
 ## 关于**强一致性**的简单讨论
 

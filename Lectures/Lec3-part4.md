@@ -1,4 +1,4 @@
-# Lec2 Distributed File System - GFS - PART4⃣️
+# Lec3 Distributed File System - GFS - PART4⃣️
 
 ## GFS Read File
 
